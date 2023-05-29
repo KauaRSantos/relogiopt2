@@ -1,0 +1,60 @@
+@font-face {
+    font-family: ds-digital;
+    src: url(ds_digital/DS-DIGI.TTF);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://st4.depositphotos.com/1755195/22324/i/600/depositphotos_223247050-stock-photo-blank-blue-texture-surface-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1  {
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 5px 4px 10px black;
+    margin-bottom: 12%;
+}
+
+
+
+.relogio{
+    color: aliceblue;
+    width: 50%;
+    height: 150px;
+    display: flex;
+   background-image: url(https://st.depositphotos.com/1275255/2371/i/600/depositphotos_23712041-stock-photo-abstract-dark-blue-widescreen-art.jpg);
+   background-repeat: no-repeat;
+   background-position: right 0;
+   background-size: cover;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 10px rgb(0, 0, 0);
+    font-family: ds-digital ;
+    margin-bottom: 15%;
+}
+
+footer{
+   padding: 15px;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -25px;
+    
+}
